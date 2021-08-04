@@ -8,6 +8,7 @@ namespace SQL_Challenges.Challenge_4
 {
     public class MessageThread
     {
+        [KEY]
         public int MessageThreadID { get; set; }
         public DateTime dateTime { get; set; }
         public DateTime Modified { get; set; }

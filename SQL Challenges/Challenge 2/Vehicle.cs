@@ -8,6 +8,7 @@ namespace SQL_Challenges.Challenge_2
 {
     public class Vehicle
     {
+        [KEY]
         public int VehicleID { get; set; }
         public string LicensePalte { get; set; }
         public string VIN { get; set; }

@@ -8,6 +8,7 @@ namespace SQL_Challenges.Bonus
 {
     public class Course
     {
+        [KEY]
         public int CourseID { get; set; }
         public string Name { get; set; }
         public string CourseCode { get; set; }

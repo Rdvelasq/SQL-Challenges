@@ -8,6 +8,7 @@ namespace SQL_Challenges.Challenge_3
 {
     public class House
     {
+        [KEY]
         public int HouseID { get; set; }
         public decimal NumberOfBedrooms { get; set; }
         public decimal NumberOfBaths { get; set; }

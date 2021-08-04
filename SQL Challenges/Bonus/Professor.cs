@@ -8,6 +8,7 @@ namespace SQL_Challenges.Bonus
 {
     public class Professor
     {
+        [KEY]
         public int ProfessorID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
