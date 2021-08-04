@@ -10,9 +10,9 @@ namespace SQL_Challenges.Challenge_3
     {
         [KEY]
         public int HouseID { get; set; }
-        public decimal NumberOfBedrooms { get; set; }
-        public decimal NumberOfBaths { get; set; }
-        public decimal EstimatedValue { get; set; }
+        public short NumberOfBedrooms { get; set; }
+        public short NumberOfBaths { get; set; }
+        public short EstimatedValue { get; set; }
 
     }
 }
